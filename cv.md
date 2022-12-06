@@ -60,3 +60,6 @@ Speaking- B1, Writing -B1
 ## Resourses 
 MDN, Codewars(JS), FreeCodeCamp, Learn.JavaScript, YouTube, HTML academy React course, 
 YouTube course (samurais are here).
+
+### Hobby
+Improving myself (sport, books, history, English).
