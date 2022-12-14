@@ -1,12 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    Hello, guys!
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+            <li class="link"><a href="#">projects</a></li>
+            <li class="link"><a href="#">about</a></li>
+            <li class="link"><a href="#">contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="home-section active">
+        <h1 class="hero-heading">Hello, I am Palina </h1>
+        <img class="avatar" src="img/avatar.png" alt="avatar">
+    </section>
+
+    <h2> Junior Frontend Developer (React) </h2>
+
+    <article class="article">
+        <p> I am looking for a good job with friendly team, where I can realize myself as useful developer. </p>
+    </article>
+
+    <main>
+
+        <section class="information">
+
+        <h4>Information: </h4>
+        <p>Belarus, Grodno </p>
+        <p> +375292800158</p>
+        <p> E-mail: polina_kazhina@mail.ru </p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/palina-kazhyna-9a016b245" target="_blank"> Linkedin |</a>
+            <a href="https://github.com/PolinaPolina94" target="_blank"> GitHub </a>
+          
+        </div>
+        </div>
+        </section>
+       
+            <div class="loves">
+                <h4> Characteristics: </h4>
+                <ul>
+                    <li>neat, attentive, polite and sociable</li>
+                    <li>conscientious, disciplined and executive</li>
+                    <li>creative and purposeful</li>
+                    <li>I develop and learn fast</li>
+                    <li>always improve myself and strive for a professional growth</li>
+                    <li>know how to work in team and love it</li>
+
+                </ul>
+            </div>
+        
+        <div class="skills">
+            <h4> Skills </h4>
+            <p>JavaScript, HTML, CSS, React, Redux, react-redux, Git, Flux, React Router, CSS Modules, axios.</p>
+            <ul>
+                <li>HTML/CSS layout</li>
+                <li>User interface development</li>
+                <li>Split file into components</li>
+                <li>Navigation</li>
+                <li>Login</li>
+                <li>Validation</li>
+                <li>Interaction with server </li>
+                <li>Debugging</li>
+                <li>Work with version control system in Git</li>
+            </ul>
+        </div>
+        <div class="course">
+            <h4>Course</h4>
+            <table>
+                <!-- <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Длительность</th>
+                </tr>
+            </thead> -->
+                <tbody>
+                    <tr>
+                        <td>HTML academy</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td>The way of samurai 1.0</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="form">
+            <h3> Get in touch with me </h3>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="text">You name: </label>
+                        <input type="text" id="text" placeholder="text your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your email: </label>
+                        <input type="email" id="email" placeholder="text your email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your message: </label>
+                    <textarea id="message" placeholder="your message"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/PolinaPolina94">GitHub </a>
+            <p> 2022-2023 </p>
+            <a href="https://rs.school/js/"> <img src="/img/rs_school_js.svg" alt="rs_scool" class="rs_school"> </a>
+        </div>
+    </footer>
+
 </body>
+
 </html>
