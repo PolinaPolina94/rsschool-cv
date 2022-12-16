@@ -1,4 +1,4 @@
 
-[watch site page] (https://GITHUB-USERNAME.github.io/rsschool-cv/)
+[watch site page](https://polinapolina94.github.io/rsschool-cv/)
 
-[watch CV markdown] (https://GITHUB-USERNAME.github.io/rsschool-cv/cv)
+[watch CV markdown](https://polinapolina94.github.io/rsschool-cv/cv)
