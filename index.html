@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="link-group">
+          <li class="link"><a href="#">home</a></li>
+          <li class="link contats"><a href="#information">info</a></li>
+          <li class="link"><a href="#about">about</a></li>
+          <li class="link"><a href="#skills">skills</a></li>
+          <li class="link"><a href="#projects">projects</a></li>
+          <li class="link"><a href="#resources">resources</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="home-section">
+      <h1 class="hero-heading">Hello, I am Palina</h1>
+      <img class="avatar" src="img/avatar.png" alt="avatar" />
+    </section>
+
+    <h2>Junior Frontend Developer (React)</h2>
+
+    <article class="article">
+      <p>
+        I am looking for a good job with friendly team, where I can realize
+        myself as useful developer.
+      </p>
+    </article>
+
+    <main>
+      <section class="info-section">
+        <div class="info-anchor" id="information"></div>
+        <h3>Information:</h3>
+        <p>Belarus, Grodno</p>
+        <p>+375292800158</p>
+        <p>E-mail: polina_kazhina@mail.ru</p>
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/palina-kazhyna-9a016b245"
+            target="_blank"
+          >
+            Linkedin |</a
+          >
+          <a href="https://github.com/PolinaPolina94" target="_blank">
+            GitHub
+          </a>
+        </div>
+      </section>
+
+      <section class="character-section">
+        <div class="about-anchor" id="about"></div>
+        <h3>Characteristics:</h3>
+        <ul>
+          <li>neat, attentive, polite and sociable</li>
+          <li>conscientious, disciplined and executive</li>
+          <li>creative and purposeful</li>
+          <li>I develop and learn fast</li>
+          <li>always improve myself and strive for a professional growth</li>
+          <li>know how to work in team and love it</li>
+        </ul>
+      </section>
+
+      <section class="english-section">
+        <h3>English</h3>
+        <p>Speaking- B1, Writing -B1</p>
+      </section>
+
+      <section class="skills-section active">
+        <div class="skills-anchor" id="skills"></div>
+        <h3>Skills</h3>
+        <p>
+          JavaScript, HTML, CSS, React, Redux, react-redux, Git, Flux, React
+          Router, CSS Modules, axios.
+        </p>
+        <hr />
+        <ul>
+          <li>HTML/CSS layout</li>
+          <li>User interface development</li>
+          <li>Split file into components</li>
+          <li>Navigation</li>
+          <li>Login</li>
+          <li>Validation</li>
+          <li>Interaction with server</li>
+          <li>Debugging</li>
+          <li>Work with version control system in Git</li>
+        </ul>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <h3>Projects</h3>
+        <div class="projects-container">
+          <div>
+            <ul>
+              <h4>HTML, CSS, JAVASCRIPT</h4>
+              <li>
+                <a href=" https://polinapolina94.github.io/color-snake">
+                  Color snake
+                </a>
+              </li>
+              <li>
+                <a href="https://polinapolina94.github.io/training-game">
+                  Training game
+                </a>
+              </li>
+              <li>
+                <a href="https://polinapolina94.github.io/slider-0.1">
+                  Slider
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <h4>REACT</h4>
+              <li>
+                <a href="https://polinapolina94.github.io/test_coins_project">
+                  Test Coins Project
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="code">
+            <h4>CODE</h4>
+            <code>
+              timeList.addEventListener('click', (event)=> { <br />
+              if (event.target.classList.contains('time-btn')) <br />
+              { time = parseInt(event.target.getAttribute('data-time')) <br />
+              screens[1].classList.add('up') <br />
+              startGame() }})
+            </code>
+          </div>
+        </div>
+      </section>
+
+      <section class="resources" id="resources">
+        <h3>Resources</h3>
+        <p>
+          MDN, Codewars(JS), FreeCodeCamp, Learn.JavaScript, YouTube, HTML
+          academy React course, YouTube course (samurais are here).
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <a href="https://github.com/PolinaPolina94">GitHub </a>
+        <p>2022-2023</p>
+        <a href="https://rs.school/js/">
+          <img src="/img/rs_school_js.svg" alt="rs_scool" class="rs_school" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
