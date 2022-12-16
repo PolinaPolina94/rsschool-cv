@@ -1,155 +1,275 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    max-width: 1200px;
-    display: block;
-    margin: auto;
-    min-height: 100vh;
-    background: #e3a7e0;
-    font-family: sans-serif;
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+  min-height: 100vh;
+  background: #e3a7e0;
+  font-family: sans-serif;
+  padding-top: 40px;
 }
 
 .navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9;
-    background: #b35faa;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  background: #b35faa;
+  margin-bottom: 80px;
 }
 
 .link-group {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .link a {
-    color: #fff;
-    opacity: 0.5;
-    text-decoration: none;
-    text-transform: capitalize;
-    padding: 10px 30px;
-    margin: 0 20px;
-    line-height: 80px;
-    transition: .5s;
-    font-size: 20px;
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  margin: 0 20px;
+  line-height: 80px;
+  transition: 0.5s;
+  font-size: 20px;
 }
 
 .link a:hover,
-.link.active a {
-    opacity: 1;
+.link a:active {
+  opacity: 1;
 }
 
 .home-section {
-    width: 100%;
-    height: 80vh;
-    padding: 0 150px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 0;
-    opacity: 0;
-    transition: 1s;
+  width: 100%;
+  height: 80vh;
+  padding: 0 150px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0;
+  opacity: 0;
+  transition: 1s;
+  opacity: 1;
+  z-index: 8;
 }
 
 .hero-heading {
-    color: #fff;
-    font-size: 80px;
-    font-weight: 300;
-    text-shadow: rgb(157, 38, 135) 2px 1px 2px;
-
+  color: #fff;
+  font-size: 80px;
+  font-weight: 300;
+  text-shadow: rgb(157, 38, 135) 2px 1px 2px;
 }
 
 .home-section-avatar {
-    position: absolute;
-    object-fit: cover;
-    opacity: 0.2;
+  position: absolute;
+  object-fit: cover;
+  opacity: 0.2;
 }
 
 img {
-    width: 400px;
-    margin-left: 50px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 25px white;
+  width: 400px;
+  margin-left: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px white;
 }
-
-.home-section.active,
-.project-section.active,
-.about-section.active,
-.contact-section.active {
-    position: relative;
-    opacity: 1;
-    z-index: 8;
-}
-
 
 h2 {
-    font-size: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    color: #b35faa;
-    text-shadow: rgb(219, 216, 216) 5px 3px 5px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #b35faa;
+  text-shadow: rgb(219, 216, 216) 5px 3px 5px;
 }
 
-
-h4 {
-    font-size: 20px;
-    margin: 10px;
+h3 {
+  font-size: 20px;
+  margin: 5px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: rgb(157, 38, 135) 2px 1px 2px;
+  text-align: center;
 }
 
 .article {
-    margin-bottom: 100px;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    text-shadow: rgb(219, 216, 216) 2px 3px 5px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: rgb(219, 216, 216) 2px 3px 5px;
 }
 
 .main {
-    display: block;
+  display: block;
 }
 
-.information {
-   font-size: 20px;
+.info-anchor {
+  position: relative;
+  top: -150px;
 }
 
+.about-anchor {
+  position: relative;
+  top: -200px;
+}
+
+.skills-anchor {
+  position: relative;
+  top: -200px;
+}
+
+.info-section {
+  font-size: 20px;
+  margin: 20px 0;
+  padding-left: 10px;
+  line-height: 40px;
+  color: rgba(207, 59, 143, 0.922);
+  font-weight: bold;
+  text-shadow: rgb(209, 198, 207) 0 1px 1px;
+  background-color: rgba(7, 150, 246, 0.1);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.character-section {
+  font-size: 20px;
+  margin: 20px 0;
+  padding-left: 10px;
+  line-height: 40px;
+  font-weight: bold;
+  color: rgba(42, 42, 209, 0.6);
+  text-shadow: rgb(209, 198, 207) 1px 1px 1px;
+  background-color: rgba(7, 150, 246, 0.1);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.character-section ul {
+  list-style: none;
+}
+
+hr {
+  border: none;
+  background-color: rgb(255, 0, 149);
+  height: 2px;
+}
+
+.skills-section {
+  font-size: 20px;
+  margin: 20px 0;
+  padding-left: 10px;
+  line-height: 40px;
+  color: white;
+  text-shadow: rgb(157, 38, 135) 0 1px 1px;
+  background-color: rgba(7, 150, 246, 0.1);
+  border-radius: 20px;
+}
+
+.skills-section li {
+  color: white;
+  text-shadow: rgb(91, 26, 79) 0 1px 1px;
+  font-weight: bold;
+  list-style: circle;
+  margin-left: 55px;
+}
+
+.skills-section p {
+  text-align: center;
+}
+
+.projects-section {
+  font-size: 20px;
+  margin: 20px 0;
+  padding-left: 10px;
+  line-height: 40px;
+  color: white;
+  text-shadow: rgb(157, 38, 135) 0 1px 1px;
+  background-color: rgba(7, 150, 246, 0.1);
+  border-radius: 20px;
+}
+
+.projects-section a {
+  color: white;
+  text-shadow: none;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.projects-section a:hover {
+  color: antiquewhite;
+}
+
+.projects-section li {
+  list-style: none;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.code {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 16px;
+  color: #bb58af;
+  font-style: normal;
+  text-shadow: none;
+}
 
 .footer {
-    display: flex;
-    width: 100%;
-    height: 5vh;
-    text-align: center;
-    align-items: center;
-    justify-content: space-around;
-    background-color: white;
-    font-size: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0px 0px 5px white;
-
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 5px white;
 }
 
-
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+.resources {
+  margin: 30px 0;
+  padding-left: 10px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(7, 150, 246, 0.1);
+  border-radius: 20px;
+  color: yellow;
 }
 
 .footer a:hover {
-    color: rgb(139, 10, 10)
+  color: rgb(139, 10, 10);
 }
 
 .rs_school {
-    width: 60px;
-    height: 60px;
-    border-radius: 0;
-    box-shadow: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 0;
+  box-shadow: none;
 }
