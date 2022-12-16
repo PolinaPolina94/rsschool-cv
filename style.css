@@ -86,7 +86,7 @@ img {
 
 h2 {
   font-size: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
   color: #b35faa;
   text-shadow: rgb(219, 216, 216) 5px 3px 5px;
@@ -103,9 +103,9 @@ h3 {
 
 .article {
   margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
   text-shadow: rgb(219, 216, 216) 2px 3px 5px;
 }
