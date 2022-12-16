@@ -155,6 +155,19 @@ h3 {
   text-align: center;
 }
 
+.english-section {
+  font-size: 20px;
+  margin: 20px 0;
+  padding-left: 10px;
+  line-height: 40px;
+  font-weight: bold;
+  color: rgba(13, 13, 89, 0.6);
+  text-shadow: rgb(209, 198, 207) 1px 1px 1px;
+  background-color: rgba(7, 150, 246, 0.1);
+  border-radius: 20px;
+  text-align: center;
+}
+
 .character-section ul {
   list-style: none;
 }
@@ -261,6 +274,10 @@ a:hover {
   background-color: rgba(7, 150, 246, 0.1);
   border-radius: 20px;
   color: yellow;
+}
+
+.english {
+  text-align: center;
 }
 
 .footer a:hover {
